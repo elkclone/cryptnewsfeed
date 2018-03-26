@@ -1,0 +1,10 @@
+
+page { margin-top:3cm; margin-left:3cm; margin-right:3cm; }
+.mh-excerpt {
+    display: block;
+    margin: 2em 1em;
+    border: 5px solid #cdf;
+    padding: 0px 1em;
+    background-color: grey;
+}
+

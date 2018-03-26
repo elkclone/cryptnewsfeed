@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title> Cryptocurrency Market News Summary </title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+  </head>
+  <body>
+    <h1> Cryptocurrency Market News Summary </h1> 
+    {% block content %}
+    {{ news_items|striptags /t|replace('----','---')|escape }}
+   
+    {% endblock %}        
+  </body>
+</html>
